@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(95, 192, 192);
+}
+.navbar-brand{
+    color: aliceblue;
+}
+.container{
+    width: 200%;
+    display: flex;
+    flex-direction: row;
+    background-color: gold;
+    gap: 5px;
+    margin: 20px;
+}
+.imagen{
+    align-items: center; 
+    justify-content: center;
+    margin: 25px;
+}
+.imagen img{
+    align-content: center;
+    width: 80%;
+    height: 80%;
+}
+.texto{
+    text-align: left;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imagen1 img{
+    width: 100%;
+    height: 150px;
+}
